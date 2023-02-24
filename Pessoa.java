@@ -8,6 +8,8 @@ public class Pessoa {
     private double peso;
     private double consumoDiarioDeagua;
 
+    //coloquei nome, idade, sexo so por colocar nao influencia no calculo, pelo menos que ue saiba
+
 
     public Pessoa(String nome, int idade, char sexo,
     double peso, double consumoDiarioDeagua){
@@ -17,6 +19,7 @@ public class Pessoa {
         this.sexo = sexo;
         this.peso = peso;
         this.consumoDiarioDeagua = consumoDiarioDeagua;
+        //construtor de pessoas
 
     }
 
